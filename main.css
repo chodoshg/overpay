@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0074D9;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #0074D9;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0063aa;
+}
+
+select {
+  height: 40px;
+}
+
+option {
+  padding: 10px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  header {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  main {
+    margin: 10px;
+  }
+
+  input[type="text"],
+  select {
+    padding: 8px;
+  }
+
+  input[type="submit"] {
+    padding: 10px 16px;
+  }
+
+  select {
+    height: 30px;
+  }
+
+  option {
+    padding: 6px;
+  }
+}
+
+/* Adjust button font size for smaller screens */
+@media only screen and (max-width: 600px) {
+  button[type="submit"] {
+    font-size: 14px;
+  }
+}
+
+/* Adjust button padding for smaller screens */
+@media only screen and (max-width: 400px) {
+  button[type="submit"] {
+    padding: 10px 20px;
+  }
+}
+
+/* Adjust button margin for smaller screens */
+@media only screen and (max-width: 320px) {
+  button[type="submit"] {
+    margin: 0 auto 10px;
+  }
+}
